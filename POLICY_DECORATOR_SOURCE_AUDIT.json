@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/tongzhoumu/policy_decorator",
+  "commit": "92ba9ba442587ae5989c286355ace2200a0537fb",
+  "file": "online/pi_dec_diffusion_maniskill2.py",
+  "sha256": "359030a1ba50ee4ef5f887533408ca5dbaff84a38f9234d99a829f56362f75dd",
+  "defaults_observed": {
+    "learning_starts": 8000,
+    "batch_size": 1024,
+    "utd": 0.25,
+    "policy_lr": 0.0001,
+    "q_lr": 0.0001,
+    "tau": 0.01,
+    "gamma": 0.97,
+    "autotune": true,
+    "initial_alpha_when_autotune": 1.0,
+    "inactive_fixed_alpha_argument": 0.2,
+    "actor_input": "obs",
+    "critic_input": "sum",
+    "res_scale": 0.1,
+    "prog_explore_parser_default": 100000,
+    "prog_explore_peg_example": 30000,
+    "log_std_min": -20,
+    "log_std_max": 2,
+    "critics": 2,
+    "training_freq": 64,
+    "num_envs": 16
+  },
+  "actual_adaptations_document": "POLICY_DECORATOR_PROTOCOL.md"
+}

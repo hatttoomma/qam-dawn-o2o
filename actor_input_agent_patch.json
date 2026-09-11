@@ -1,0 +1,42 @@
+{
+  "original": "dawn_agent.py",
+  "original_sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+  "adapted": "actor_input_agent.py",
+  "adapted_sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+  "replacements": [
+    [
+      "\"\"\"DAWN-style residual SAC on the exact QAM critic backbone.\"\"\"",
+      "\"\"\"Matched-width actor input ablation; all update equations retain the DAWN implementation.\"\"\""
+    ],
+    [
+      "class DawnAgent:",
+      "class ActorInputAgent:"
+    ],
+    [
+      "    res_scale: float = flax.struct.field",
+      "    condition_on_base: bool = flax.struct.field(pytree_node=False, default=False)\n    res_scale: float = flax.struct.field"
+    ],
+    [
+      "adef.init(akey, obs)['params']",
+      "adef.init(akey, actor_input(obs, jnp.zeros((*obs.shape[:-1], dim), dtype=obs.dtype), False))['params']"
+    ],
+    [
+      "self.actor.params, obs, key, deterministic)",
+      "self.actor.params, actor_input(obs, base, self.condition_on_base), key, deterministic)"
+    ],
+    [
+      "self.actor.params, batch['next_observations'], target_key)",
+      "self.actor.params, actor_input(batch['next_observations'], batch['next_base_actions'], self.condition_on_base), target_key)"
+    ],
+    [
+      "params, batch['observations'], actor_key)",
+      "params, actor_input(batch['observations'], batch['base_actions'], self.condition_on_base), actor_key)"
+    ],
+    [
+      "actor.params, batch['observations'], alpha_key)",
+      "actor.params, actor_input(batch['observations'], batch['base_actions'], self.condition_on_base), alpha_key)"
+    ]
+  ],
+  "added_helper": "\n\ndef actor_input(obs, base, condition_on_base):\n    \"\"\"Same input width in both arms; mask only the base-action feature block.\"\"\"\n    base = jnp.asarray(base, dtype=obs.dtype)\n    features = base if condition_on_base else jnp.zeros_like(base)\n    return jnp.concatenate([obs, features], axis=-1)\n",
+  "diff": "--- dawn_agent.py\n+++ actor_input_agent.py\n@@ -1,4 +1,4 @@\n-\"\"\"DAWN-style residual SAC on the exact QAM critic backbone.\"\"\"\n+\"\"\"Matched-width actor input ablation; all update equations retain the DAWN implementation.\"\"\"\n from functools import partial\n from typing import Any\n \n@@ -10,6 +10,13 @@\n from flax.training.train_state import TrainState\n \n from utils.networks import Value\n+\n+\n+def actor_input(obs, base, condition_on_base):\n+    \"\"\"Same input width in both arms; mask only the base-action feature block.\"\"\"\n+    base = jnp.asarray(base, dtype=obs.dtype)\n+    features = base if condition_on_base else jnp.zeros_like(base)\n+    return jnp.concatenate([obs, features], axis=-1)\n \n \n class ResidualActor(nn.Module):\n@@ -42,7 +49,7 @@\n \n \n @flax.struct.dataclass\n-class DawnAgent:\n+class ActorInputAgent:\n     critic: TrainState\n     target_params: Any\n     actor: TrainState\n@@ -51,6 +58,7 @@\n     rng: Any\n     updates: Any\n     action_dim: int = flax.struct.field(pytree_node=False)\n+    condition_on_base: bool = flax.struct.field(pytree_node=False, default=False)\n     res_scale: float = flax.struct.field(pytree_node=False, default=.1)\n     tau: float = flax.struct.field(pytree_node=False, default=.01)\n \n@@ -68,13 +76,13 @@\n             target = qam.network.params['modules_target_critic']\n         tx = optax.chain(optax.clip_by_global_norm(50.), optax.adam(1e-4))\n         critic = TrainState.create(apply_fn=qdef.apply, params=qparams, tx=tx)\n-        actor = TrainState.create(apply_fn=adef.apply, params=adef.init(akey, obs)['params'], tx=tx)\n+        actor = TrainState.create(apply_fn=adef.apply, params=adef.init(akey, actor_input(obs, jnp.zeros((*obs.shape[:-1], dim), dtype=obs.dtype), False))['params'], tx=tx)\n         log_alpha = jnp.asarray(jnp.log(.01), jnp.float32)\n         return cls(critic, target, actor, log_alpha, optax.adam(1e-4).init(log_alpha), rng, jnp.int32(0), dim)\n \n     @partial(jax.jit, static_argnames=('deterministic',))\n     def sample(self, obs, base, key, deterministic=False):\n-        u, logp, _ = sample_residual(self.actor.apply_fn, self.actor.params, obs, key, deterministic)\n+        u, logp, _ = sample_residual(self.actor.apply_fn, self.actor.params, actor_input(obs, base, self.condition_on_base), key, deterministic)\n         raw = base + self.res_scale * u\n         return jnp.clip(raw, -1., 1.), {\n             'residual_abs_mean': jnp.abs(self.res_scale * u).mean(),\n@@ -86,7 +94,7 @@\n     def update(self, batch):\n         rng, target_key, actor_key, alpha_key = jax.random.split(self.rng, 4)\n         alpha = jnp.exp(self.log_alpha)\n-        u_next, next_logp, _ = sample_residual(self.actor.apply_fn, self.actor.params, batch['next_observations'], target_key)\n+        u_next, next_logp, _ = sample_residual(self.actor.apply_fn, self.actor.params, actor_input(batch['next_observations'], batch['next_base_actions'], self.condition_on_base), target_key)\n         next_actions = jnp.clip(batch['next_base_actions'] + self.res_scale * u_next, -1., 1.)\n         next_qs = self.critic.apply_fn({'params': self.target_params}, batch['next_observations'], next_actions)\n         target = jax.lax.stop_gradient(soft_backup(batch['rewards'], batch['discounts'], next_qs, alpha, next_logp))\n@@ -102,7 +110,7 @@\n         critic = self.critic.apply_gradients(grads=qgrads)\n \n         def actor_loss(params):\n-            u, logp, logstd = sample_residual(self.actor.apply_fn, params, batch['observations'], actor_key)\n+            u, logp, logstd = sample_residual(self.actor.apply_fn, params, actor_input(batch['observations'], batch['base_actions'], self.condition_on_base), actor_key)\n             actions = jnp.clip(batch['base_actions'] + self.res_scale * u, -1., 1.)\n             qs = critic.apply_fn({'params': critic.params}, batch['observations'], actions)\n             q = qs.min(axis=0)\n@@ -113,7 +121,7 @@\n \n         (_, actor_info), agrads = jax.value_and_grad(actor_loss, has_aux=True)(self.actor.params)\n         actor = self.actor.apply_gradients(grads=agrads)\n-        _, new_logp, _ = sample_residual(actor.apply_fn, actor.params, batch['observations'], alpha_key)\n+        _, new_logp, _ = sample_residual(actor.apply_fn, actor.params, actor_input(batch['observations'], batch['base_actions'], self.condition_on_base), alpha_key)\n         alpha_grad = -jax.lax.stop_gradient((new_logp - self.action_dim).mean())\n         alpha_updates, alpha_state = optax.adam(1e-4).update(alpha_grad, self.alpha_opt_state, self.log_alpha)\n         log_alpha = optax.apply_updates(self.log_alpha, alpha_updates)\n"
+}

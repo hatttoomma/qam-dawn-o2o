@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-06",
+  "qam_commit": "2726d767c9a0a7a46d49693f0391f73dc2cf58ac",
+  "dawn_reference_commit": "71122b7fa89568bc2d49831fed8cb1b01e5a91e8",
+  "vendor_qam_files_compared": 25,
+  "vendor_qam_files_different_from_upstream": [],
+  "remote_training_source_files_checked_against_launch_manifest": 28,
+  "remote_training_source_files_changed_since_launch": [],
+  "scope": "Training implementation only. The report generator and documentation may be updated independently of the fixed training source."
+}
