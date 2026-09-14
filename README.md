@@ -1,72 +1,67 @@
-# QAM → online / residual RL experiments
+# QAM → DAWN residual RL：AntMaze-large 与 Cube-double
 
-OGBench `cube-double-play-singletask-task1`–`task5` 上的 offline-to-online 实验代码。此仓库保存从实际训练服务器取回的源码，包括 QAM native、DAWN 派生 residual RL、Policy Decorator、BC 起点与相关消融。
+保存两组 OGBench benchmark 各 5 个 task 的实际实验源码、配置与结果。最新一轮为 **500k offline updates + 100k online environment steps**，训练 seed=0；QAM native 和 DAWN 共 20 组，均已完成。
 
-## 当前主要设置
+## 最新 100k 设置
 
-- 每个 task 独立进行 QAM offline 500k updates；训练 seed=0。
-- QAM native：batch 256、UTD 1、5k steps 开始更新、offline + online 均匀 replay、50k online steps。
-- 官方 cube-double 配置为 `inv_temp=1`、`edit_scale=0`，所以这里的 QAM-EDIT baseline 实际没有启用 editor。
-- 最近的 DAWN 派生版本：冻结 QAM base、普通 TD、batch 256、UTD 0.25、online-only replay、20k base-only warmup、residual scale 0.1。
-- Residual actor 输入 state + 实际 sampled base action chunk（37 + 25 = 62 维）；3×256 ReLU，tanh-Gaussian 输出。
-- Critic ensemble=10，actor Q 和 target Q 均取 minimum；actor entropy 和自动 alpha 保留。
-- 两种方法的 action chunk 都为 5。
-- Task5 另外比较继承 critic / 随机 critic，完成 500k online，并从完整训练状态续训到 1M。
+| 项目 | QAM native | DAWN residual |
+|---|---|---|
+| 起点 | 对应 task 的 QAM offline 500k | 同一 offline checkpoint；冻结 base，继承 Q / target Q |
+| 0–40k | 5k 起开始在线更新，UTD=1 | base-only rollout，收集 replay，不更新 |
+| 40–50k | 原生 QAM replay / UTD=1 | 每批 128 offline + 128 online，UTD=0.25 |
+| 50–100k | 原生 QAM replay / UTD=1 | 每批 256 online，UTD=0.0625；保留前期 online 数据 |
+| Batch size | 256 | 256 |
+| 100k 时 online gradient updates | 95,001 | 5,625 |
+| Critic TD | 原生 QAM objective | naive TD，无 target entropy bonus |
+| Actor | 原生 QAM 更新 | state + 实际 sampled base action；Gaussian residual |
 
-DAWN 派生实现包含我们为 QAM / OGBench 做的改动，并非对 DAWN 原论文全部默认设置的原样复现。较早消融有不同的 TD、batch、replay 和 actor input；各协议是对应实验的准确说明。
+DAWN：residual scale=0.1，actor 3×256 ReLU，critic ensemble=10，actor-Q / target-Q 均取 minimum；lr=1e-4、tau=0.01、gradient clip=50。Actor entropy 与自动 alpha 保留。完整设定、replay 转换和续训来源见 [100k 协议](scale100k/PROTOCOL.md)。
 
-## 文件入口
+两种算法都遵循对应 benchmark 的 action chunk：AntMaze horizon=1、inv_temp=10；Cube horizon=5、inv_temp=1。Native 均使用 **QAM，edit_scale=0**。DAWN 为基于 DAWN 的适配实现，不是原论文默认设置的完整复现。
 
-| 内容 | 文件 |
+## 当前代码入口
+
+| 内容 | 入口 |
 |---|---|
-| QAM 与初始 residual 训练、评估、checkpoint | [`run.py`](run.py) |
-| 最新 state + base action residual | [`actor_input_agent.py`](actor_input_agent.py) |
-| 五任务训练 | [`run_cube5.py`](run_cube5.py)、[`CUBE5_PROTOCOL.md`](CUBE5_PROTOCOL.md) |
-| Task5 500k 长训 | [`run_task5_long_critic.py`](run_task5_long_critic.py)、[`TASK5_LONG_CRITIC_PROTOCOL.md`](TASK5_LONG_CRITIC_PROTOCOL.md) |
-| Task5 500k → 1M 续训 | [`run_task5_continue_1m.py`](run_task5_continue_1m.py)、[`TASK5_CONTINUE_1M_PROTOCOL.md`](TASK5_CONTINUE_1M_PROTOCOL.md) |
-| Policy Decorator | [`policy_decorator_agent.py`](policy_decorator_agent.py)、[`POLICY_DECORATOR_PROTOCOL.md`](POLICY_DECORATOR_PROTOCOL.md) |
-| BC 起点 | [`bc_pretrain.py`](bc_pretrain.py)、[`BC_PROTOCOL.md`](BC_PROTOCOL.md) |
-| 其余消融 | `run_*ablation.py`、`*_PROTOCOL.md` |
-| 验证 / 报告 / 视频 | `audit_*.py`、`verify_*.py`、`summarize*.py`、`render_*.py` |
-| 原始实验记录 | [`docs/REMOTE_README.md`](docs/REMOTE_README.md) |
+| AntMaze native 100k | [native.py](scale100k/antmaze_native/native.py)、[suite.py](scale100k/antmaze_native/suite.py) |
+| AntMaze DAWN 续训至 100k | [dawn_resume.py](scale100k/antmaze/dawn_resume.py)、[dawn_suite.py](scale100k/antmaze/dawn_suite.py) |
+| Cube native / DAWN 100k | [run_online.py](scale100k/cube/run_online.py)、[suite.py](scale100k/cube/suite.py) |
+| Cube horizon=5 mixed replay | [balanced_replay.py](scale100k/cube/balanced_replay.py) |
+| AntMaze 40k warmup / mixed replay | [antmaze_balanced/](antmaze_balanced/) |
+| AntMaze 50→60k 与低 UTD 消融 | [antmaze_online60/](antmaze_online60/)、[antmaze_online60_utd00625/](antmaze_online60_utd00625/) |
+| 原始 Cube / BC / Policy Decorator / 1M 消融 | 根目录 `run_*.py`、各 `*_PROTOCOL.md`；见 [历史入口说明](docs/README_20260911.md) |
+| 来源、目录对应与运行依赖 | [SOURCE_INDEX.md](SOURCE_INDEX.md)、[运行说明](docs/RUNNING_100K.md) |
 
-## 环境与数据
+## 结果与校验
 
-训练环境为 Linux + NVIDIA GPU，依赖锁定于 [`requirements.txt`](requirements.txt)。在仓库根目录准备环境：
+主结果为 **mean residual**：`tanh(mean)`；base action 仍由 flow policy 采样。每个 task 使用 100 个配对评估 episodes。Sampled residual 作为单独口径保存，不能逐点取两者较高值。
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-python -m pip install -r requirements.txt
-export MUJOCO_GL=egl
-```
+| 五任务等权平均 success rate | QAM native | DAWN mean residual |
+|---|---:|---:|
+| AntMaze-large | 93.0% | 72.6% |
+| Cube-double | 98.0% | 64.2% |
 
-数据来自 OGBench，由训练入口通过 `ogbench.make_env_and_datasets` 读取/下载；默认位置是仓库下的 `data/`，也可使用 `--data` 指定。数据来源和哈希见 [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md)。实际运行还需要主机 CUDA / EGL 驱动；本次打包只验证源码完整性和 Python 语法，没有在本地重新训练。
+[逐 task 结果与限制](reports/100k_20260914/README.md) · [CSV](reports/100k_20260914/all_tasks_comparison.csv) · [PDF](reports/100k_20260914/all_tasks_100k_comparison.pdf)
 
-## 如何使用这份代码
+![100k online comparison](reports/100k_20260914/comparison_primary.png)
 
-本仓库是**实际实验源码快照**。训练逻辑未为上传而改写。历史 launcher 和 continuation 脚本会验证原始 checkpoint、评估记录及 source manifest 的哈希，因此仅 clone 代码不能直接恢复历史实验。
-
-- 继续已有实验：将原服务器对应的 `runs/`、`data/` 另外保留或恢复到相同目录结构，再使用相应 launcher；先确认没有重复运行中的训练进程。
-- 从头运行最初 Task1 QAM baseline：可运行以下命令。它们会执行完整训练，产生计算开销。
+不需要 GPU 或 checkpoint 即可校验源码、重新计算已保存的结果；在仓库根目录运行：
 
 ```bash
-python run.py --stage offline --out runs/offline
-python run.py --stage native --out runs/native --offline-checkpoint runs/offline/final.pkl
+python3 tools/verify_sources.py
+python3 scale100k/validate_completed.py
+# 绘图需要 numpy 与 matplotlib；默认读 reports/100k_20260914/
+python3 scale100k/plot_final.py
 ```
 
-- 最新五任务与 1M 续训：按对应协议和 `launch_*.py` 的前置检查准备历史依赖。`launch_cube5.py` 复用 Task1/2，Task5 continuation 依赖对应 500k 完整 checkpoint。
-- 数据、checkpoint、replay、运行日志、视频和结果归档没有上传；`.gitignore` 已覆盖这些路径。
-- 历史文档中的 `results*/` 链接及绝对服务器路径是原运行记录，clone 后只有另外取回相应产物才可使用。
+冻结的评估快照、配置、episode 记录、source / checkpoint 哈希已收录，便于复核。仅一个训练 seed，100 个评估 episodes 不代表多训练种子的稳定性；相同 env budget 也不代表相同梯度更新或计算量。
 
-## 评估口径
+## 环境与运行
 
-训练时 residual 为随机采样。最近 Task5 长训在 50k、100k、200k、500k、750k、1M 同时保存 sampled 和 mean-residual 评估；每种方式每点 100 episodes，0k 为关闭 residual 的 offline baseline。
+训练使用 Linux、NVIDIA GPU、Python 3.10、JAX 0.4.35、OGBench 1.1.0、MuJoCo 3.2.7。Cube 使用原 [requirements.txt](requirements.txt)；AntMaze 的额外依赖见 [requirements-antmaze.txt](requirements-antmaze.txt)。两台机器实际版本保存在 [provenance/20260914/](provenance/20260914/)。
 
-Mean residual 指 `tanh(mean)`，不是多个 sampled actions 的平均；QAM base action 仍按原 flow policy 采样。原先五任务的主结果为 sampled residual，mean residual 是额外诊断。比较时应明确标注口径、episode 数和 online budget，不能逐 checkpoint 选择两种方式中较高的值。
+这是经过整理的 **实际训练源码快照**。训练模块保持与服务器字节一致；归档时只修改 README、补充说明和报告工具路径。运行脚本有 checkpoint、源码哈希和历史目录前置检查，因此 clone 后不能直接恢复所有训练。数据、模型、replay、虚拟环境、视频和凭据没有上传；运行前按 [运行说明](docs/RUNNING_100K.md) 准备它们。
 
-## 来源与完整性
+AntMaze native 100k 从原 offline 500k 重新开始 online；Cube native 从完整旧 50k 状态续训。AntMaze native 的最终 replay 导出缺少最后一条 transition，且 simulator export 不完整，**不能当作精确续训 checkpoint**；这不影响已验证的 100k endpoint 结果。
 
-[`REMOTE_SOURCE_MANIFEST.json`](REMOTE_SOURCE_MANIFEST.json) 记录取回时的 148 个远程文件及 SHA-256。原始 `README.md` 和 `.gitignore` 分别完整保存在 `docs/REMOTE_README.md` 和 `docs/REMOTE_GITIGNORE.txt`，其余源文件保持原路径和原内容；仓库根目录 README 与 .gitignore 是上传时添加的整理版本。
-
-QAM 上游固定 commit：`2726d767c9a0a7a46d49693f0391f73dc2cf58ac`；来源核对见 [`SOURCE_AUDIT.json`](SOURCE_AUDIT.json)。Vendored QAM 代码保留其 [`MIT License`](vendor/qam/LICENSE)。此快照未为项目自有代码额外选择开源许可证。
+QAM 上游固定 commit：`2726d767c9a0a7a46d49693f0391f73dc2cf58ac`。各 `official/` 和 `vendor/qam/` 保留上游 MIT License。原有源码和历史实验未被删除，也未为自有代码额外选择许可证。

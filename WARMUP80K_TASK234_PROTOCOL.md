@@ -1,0 +1,15 @@
+# Task2 / Task3 / Task4 extension
+
+Extend the completed Task1/Task5 80k-warmup experiment to the remaining three cube-double-play single tasks. Use each task's original QAM offline500k checkpoint, seed0, inherited current/target critics with fresh optimizers, and frozen base policy. No offline retraining and no continuation from older online agents.
+
+Exactly as Task1/Task5: 80,000 base-only warmup environment steps, 150,000 total online environment steps including warmup, 17,500 gradient updates, ordinary TD critic target, actor entropy and automatic alpha retained, batch256, UTD0.25 per primitive environment step, state+sampled base action chunk input, residual scale0.1, online-only uniform growing replay, action horizon5, 10 critics, minimum actor-Q and target aggregation. All network, optimizer, seed, evaluation and sampling settings remain unchanged.
+
+Evaluation: 100 fixed episodes at offline0k and approximately100k,120k,150k, using both mean residual (primary) and sampled residual. Base policy remains sampled. The 80k checkpoint is the unchanged base policy, so its baseline evaluation is reused. Preserve the shared-prefix collection/reload sequence and simulator reconstruction checks used for Task1/Task5, even though only one critic initialization is requested.
+
+`run_warmup80k_task234.py` is the previous runner with only task identifiers, checkpoint mappings/hashes, historical initial-agent audit mappings, output directory and source-manifest entries changed. `warmup80k_task234_extension_diff.json` specifies every replacement; reversing them must reproduce the original source exactly. The established GPU, gradient-update and checkpoint-restore validation from Task1/Task5 is reused. Every new task verifies its reward/dataset manifest, checkpoint hash and complete initial-agent hash before collecting data. No new runtime or algorithm change is introduced.
+
+The launcher verifies all original source hashes and package versions. Continue using the same installed EGL library and disabled CUDA command-buffer capture on the same RTX4090. Run at most two processes simultaneously with the same0.38 per-process GPU memory allocation. Task2 and Task3 start first; each proceeds directly from collection to training, and Task4 starts when one task finishes. All three jobs run detached from SSH under the supervisor.
+
+Logical output directory: `runs/warmup80k_150k_task234_20260911/`. Its physical storage directory is recorded in `storage.json`; the existing experiment data disk has limited free space, so these new outputs are placed under `/root/qam_dawn_outputs/` on the system disk via a symlink. Previous experiment files and checkpoints are preserved. Keep full latest checkpoints, slim intermediate checkpoints, final weights and per-episode evaluation records.
+
+After all three tasks complete, save results for these tasks and combined five-task tables, including the historical QAM native50k comparison. These are one-seed results. QAM native uses50k online environment steps/45,001 updates, while this DAWN schedule uses150k/17,500; report these budget differences explicitly.

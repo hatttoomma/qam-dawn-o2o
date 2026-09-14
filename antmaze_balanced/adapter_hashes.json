@@ -1,0 +1,14 @@
+{
+  "test_replay.py": "9694421f01cabcf3516f1710e1d7874f792114aeba303573e75f340fac9e09fd",
+  "suite.py": "a86d9ddfbb8f1c0eb96e2cc2fb997d525c568a6a60eafb246729c0a9fe6318ff",
+  "source_manifest.json": "0054e87bf9d0c8d938fe3717c55d863ae3cb29f67e6bb2e7ac7a0405c4c4edf5",
+  "paired_evaluation.py": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+  "balanced_replay.py": "da54db5702bf980ab6c32bb17a3b9207569fe38cb6e43af36cd1bd404abd0552",
+  "dawn.py": "1672c9d9e5765ef3d850359c2b68b60afa1e3942f1ff15baa862e589ac7c6e0c",
+  "inputs.json": "23db3906a2247e330778a62c527af7f5430991320c47fd6c367aefe4562ddeef",
+  "preflight.py": "5b6ce607117bb7d222540fede5d3be454c4b29d1cec6712c3622ab8e1aef2c03",
+  "PROTOCOL.md": "6f90a8571edd15bc659ce1e6cde4fe695535576f6c3d231ea74341d98b7a190f",
+  "legacy/run.py": "be2dea2e71183b53feed895375fe3435fb6509e87fe83da1f8d9e2031dcb3348",
+  "legacy/actor_input_agent.py": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+  "legacy/dawn_agent.py": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a"
+}

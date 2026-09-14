@@ -1,0 +1,62 @@
+{
+  "1": {
+    "offline": "/root/autodl-tmp/qam_dawn_o2o/runs/offline/final.pkl",
+    "offline_metadata": {
+      "step": 500000,
+      "checkpoint_sha256": "f318b912d53af2d18f6dbf6ca2815a0af8fb0a795afc325f1544b81b1f080cc1",
+      "flow_hash": "bd6a84a91219ec6b7d612cceef492406c8b7a2df3665bb1b55ae9a8b33bd1592",
+      "q_hash": "8299e0f4b646cc0d3225f6586b197efdc2974a9ed582bc623f2fb01ffb5579da",
+      "target_q_hash": "47156a4503ee5aeb5b7216811ec08f230cf88786281efa5c3e12cfe6b968bdce",
+      "elapsed_seconds": 2167.8795395232737
+    },
+    "native": "/root/autodl-tmp/qam_dawn_o2o/runs/native"
+  },
+  "2": {
+    "offline": "/root/autodl-tmp/qam_dawn_o2o/runs/task2/offline/final.pkl",
+    "offline_metadata": {
+      "step": 500000,
+      "checkpoint_sha256": "b117517f8e6d2227137a715de4c5045c0468b252949c0c782e94265dd489cd02",
+      "flow_hash": "b9d70225a4b65053f8b99fab980a89b5cc85a056c83a6be15ec877e95e761178",
+      "q_hash": "bee1d82f2971028a711ec9a8cf9e8d80c07555f67dea8db23a2d2d5a14af805c",
+      "target_q_hash": "ac8d0ef452e100863330e78df40eb73c147ffb88789b83728a5c93169eeb70d3",
+      "elapsed_seconds": 2286.703325212933
+    },
+    "native": "/root/autodl-tmp/qam_dawn_o2o/runs/task2/native"
+  },
+  "3": {
+    "offline": "/root/autodl-tmp/qam_dawn_o2o/runs/cube5/task3_offline/final.pkl",
+    "offline_metadata": {
+      "step": 500000,
+      "checkpoint_sha256": "d955aeb235ca369996c54621421b29ba0cd933be61bc92909729cba0cc442ffd",
+      "flow_hash": "c31c42f3a68dc600b0988e51d02d49da935ccd226d7bc731ed6f8f201fc76c15",
+      "q_hash": "db876dac04a71e136e704eadd0d019950af7ea78013be5e8d7785f33b42eac01",
+      "target_q_hash": "070d4e85f2ca27aa1961a19fe2834b59e397ef4e9ee84b5c2143927d5efe8b73",
+      "elapsed_seconds": 4922.644861254841
+    },
+    "native": "/root/autodl-tmp/qam_dawn_o2o/runs/cube5/task3_native"
+  },
+  "4": {
+    "offline": "/root/autodl-tmp/qam_dawn_o2o/runs/cube5/task4_offline/final.pkl",
+    "offline_metadata": {
+      "step": 500000,
+      "checkpoint_sha256": "aa98ada060943a3633979c5fbdf9cc1b77cda950a409a0e5e4f5fd2f79097670",
+      "flow_hash": "7bf0908db2c71103ede27894f0978bdf77c7235851d105f98160a8d214d06824",
+      "q_hash": "fedba0c60170e8b8eef389ac5018c5fa0965522c1f8a618b691cb2c52a4c4d5b",
+      "target_q_hash": "fa4f4e2a1e6145e78e48326962e741d53f538c6d77ad4c9c59452330e2ada0bf",
+      "elapsed_seconds": 4932.7848703972995
+    },
+    "native": "/root/autodl-tmp/qam_dawn_o2o/runs/cube5/task4_native"
+  },
+  "5": {
+    "offline": "/root/autodl-tmp/qam_dawn_o2o/runs/cube5/task5_offline/final.pkl",
+    "offline_metadata": {
+      "step": 500000,
+      "checkpoint_sha256": "fc0ac82260d16262da8e0c1d7266fd19fc024dfc52c4b40b26e64b6463a1938a",
+      "flow_hash": "85ee6cfd4b1e360f8c6cb1194c2aaa25fb42c73d7b2e5659f6255056227f93fd",
+      "q_hash": "c78841aa3df6f4f5c1a365a1554703ff6c795ac24c33b3f1714093ebe910c53f",
+      "target_q_hash": "871fd7107faca8d2fdd8d4592e0829405a2bc338598a26f27c608d0527c16871",
+      "elapsed_seconds": 4913.893075678498
+    },
+    "native": "/root/autodl-tmp/qam_dawn_o2o/runs/cube5/task5_native"
+  }
+}

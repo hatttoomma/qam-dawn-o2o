@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "all_500_remote_files_in_git_index": true,
+  "historical_files_deleted": 0,
+  "existing_files_modified": [
+    "README.md"
+  ],
+  "python_syntax_files": 434,
+  "remote_source_files_verified": 500,
+  "final_run_source_hash_checks": 103,
+  "completed_runs_revalidated": 20,
+  "result_rows_recomputed": 30,
+  "CSV_and_summary_identical_to_published": true,
+  "both_regenerated_PNGs_byte_identical": true,
+  "credential_pattern_findings": 0,
+  "documentation_links_valid": true,
+  "whitespace_note": "Preserved archived source whitespace and original CSV CRLF to retain recorded hashes; no newly authored-file whitespace errors.",
+  "archived_whitespace_diagnostics": 2457,
+  "archived_files_with_whitespace": 170,
+  "training_rerun": false
+}

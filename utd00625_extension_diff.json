@@ -1,0 +1,78 @@
+{
+  "source": "run_warmup80k_task234.py",
+  "source_sha256": "105109cffa308d9cac7ebedfeb090d9e58ee03c72e05100bc136cc5a5f03a308",
+  "extended": "run_utd00625.py",
+  "extended_sha256": "5717bbf73bb7f428448bb0b02e109d7e7d49d1ddbee95ca14fe80110a9205500",
+  "changes": [
+    {
+      "old": "\"\"\"Task2/3/4 extension of the validated Task1/5 warmup-80k, online-150k runner.\"\"\"",
+      "new": "\"\"\"Five-task UTD0.0625 ablation with exactly the historical warmup prefix.\"\"\"",
+      "count": 1
+    },
+    {
+      "old": "from run_actor_input_ablation import check_input_operator, hard_backup",
+      "new": "from run_actor_input_ablation import check_input_operator, hard_backup\nfrom utd00625_support import install_utd_schedule, verify_matching_configuration, reference_dir",
+      "count": 1
+    },
+    {
+      "old": "runs/warmup80k_150k_task234_20260911",
+      "new": "runs/utd00625_warmup80k_150k_20260911",
+      "count": 1
+    },
+    {
+      "old": "OFFLINES = {2:",
+      "new": "OFFLINES = {1: ('runs/offline/final.pkl', 'f318b912d53af2d18f6dbf6ca2815a0af8fb0a795afc325f1544b81b1f080cc1'),\n            5: ('runs/cube5/task5_offline/final.pkl', 'fc0ac82260d16262da8e0c1d7266fd19fc024dfc52c4b40b26e64b6463a1938a'),\n            2:",
+      "count": 1
+    },
+    {
+      "old": "choices=(2, 3, 4)",
+      "new": "choices=(1, 2, 3, 4, 5)",
+      "count": 1
+    },
+    {
+      "old": "args = common.parse()",
+      "new": "args = common.parse()\n    args.utd = .0625",
+      "count": 1
+    },
+    {
+      "old": "out.mkdir(parents=True, exist_ok=True)",
+      "new": "out.mkdir(parents=True, exist_ok=True)\n    install_utd_schedule(common, out)",
+      "count": 1
+    },
+    {
+      "old": "'run_warmup80k_task234.py', 'audit_cube5.py',",
+      "new": "'run_warmup80k_task234.py', 'audit_cube5.py',\n                    'run_utd00625.py', 'utd00625_support.py', 'launch_utd00625.py',",
+      "count": 1
+    },
+    {
+      "old": "previous_path = ('runs/actor_input_ablation/task2_base_action' if task == 2 else f'runs/cube5/task{task}_warm')",
+      "new": "previous_path = str(reference_dir(task).relative_to(common.ROOT))",
+      "count": 1
+    },
+    {
+      "old": "target_entropy=-25, utd=.25,",
+      "new": "target_entropy=-25, utd=.0625,",
+      "count": 1
+    },
+    {
+      "old": "            if selected.shared_warmup and not (out/'latest.pkl').exists():",
+      "new": "            verify_matching_configuration(common, out, task, selected.smoke)\n            if selected.shared_warmup and not (out/'latest.pkl').exists():",
+      "count": 1
+    },
+    {
+      "old": "(step-args.warmup)//4",
+      "new": "(step-args.warmup)//16",
+      "count": 1
+    },
+    {
+      "old": "(args.online_steps-args.warmup)//4",
+      "new": "(args.online_steps-args.warmup)//16",
+      "count": 1
+    },
+    {
+      "old": "original_training_loop=True,",
+      "new": "training_loop_only_utd_changed=True,",
+      "count": 1
+    }
+  ]
+}

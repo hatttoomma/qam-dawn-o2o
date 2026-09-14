@@ -1,0 +1,18 @@
+{
+  "antmaze-large-navigate-v0.npz": {
+    "bytes": 242877817,
+    "sha256": "2dbe946ac107ca5ac524f82f7a72efa951ceab0be915201d6b32e612d823f2e7",
+    "source": "https://rail.eecs.berkeley.edu/datasets/ogbench/antmaze-large-navigate-v0.npz",
+    "zip_crc": "passed",
+    "verified_mirror": "https://huggingface.co/datasets/yonghoon96/ogbench-mirror/resolve/main/antmaze-large-navigate-v0.npz",
+    "mirror_lfs_sha256_matches_official_download": true
+  },
+  "antmaze-large-navigate-v0-val.npz": {
+    "bytes": 24302303,
+    "sha256": "e9a4126825faefb57c34c29f1ee423858dbc4b6f71d9a9846a8b8bdb908b44a1",
+    "source": "https://rail.eecs.berkeley.edu/datasets/ogbench/antmaze-large-navigate-v0-val.npz",
+    "zip_crc": "passed",
+    "verified_mirror": "https://huggingface.co/datasets/yonghoon96/ogbench-mirror/resolve/main/antmaze-large-navigate-v0-val.npz",
+    "mirror_lfs_sha256_matches_official_download": true
+  }
+}

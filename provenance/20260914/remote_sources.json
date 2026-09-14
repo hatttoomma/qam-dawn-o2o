@@ -1,0 +1,3005 @@
+{
+  "retrieved_utc": "2026-09-14T14:47:18.268902+00:00",
+  "files": {
+    "docs/REMOTE_GITIGNORE.txt": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/.gitignore",
+      "sha256": "75a8c81ababe5bdb2cd3ff8a18c5db64fbbd01b0aa33570fda3a34301ab05e74",
+      "bytes": 601,
+      "benchmark_host": "cube"
+    },
+    "ACTOR_INPUT_ABLATION_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/ACTOR_INPUT_ABLATION_PROTOCOL.md",
+      "sha256": "2df7859e84cf1f105ad45d43a984911f5f996f4749d9a1b6dfc3c11d5476a135",
+      "bytes": 2930,
+      "benchmark_host": "cube"
+    },
+    "BC_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/BC_PROTOCOL.md",
+      "sha256": "c1cab0a183837f6e822c0e9d52d3f8464753399ab52f89cb12af9070a171a8e2",
+      "bytes": 4778,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT.md",
+      "sha256": "2b9729ed17f578c7828f5877b251588d7cbf5846f03d9ca1277c91ff2fcb4a04",
+      "bytes": 1871,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_ACTOR_INPUT.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_ACTOR_INPUT.md",
+      "sha256": "1d9eb4be37613979bc4e1f40e4ece5dd90df9911d483aaddcc6b2ccf35f66a75",
+      "bytes": 905,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_BC.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_BC.md",
+      "sha256": "c2a1574bb9237dae22b5b3c5fa9071efb5fa9e9c0a60dfdb94795bc692b4c7d2",
+      "bytes": 1301,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_CONTINUATION.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_CONTINUATION.md",
+      "sha256": "2c29282cb7f30fef854b58d9dc34754cc966cc4dff1009dd33f82284ea97ffe8",
+      "bytes": 935,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_CUBE5.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_CUBE5.md",
+      "sha256": "d3d5ebaa8c2b4cd919286163c30bc1f69f1f4f403bf6fd59dce9c3a9d3c5cae8",
+      "bytes": 1677,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_FIVE.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_FIVE.md",
+      "sha256": "01aa7a146618f782e61fc2fab7d0434106ddc6ddb5273373f6af29524a6100d8",
+      "bytes": 1665,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_NEWDATA_ABLATION.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_NEWDATA_ABLATION.md",
+      "sha256": "2d2b4838929880b9cbcf4f0cde0ec835b40b3208ad9f56031709962342d3a4ea",
+      "bytes": 1993,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_PD.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_PD.md",
+      "sha256": "7af1dfa1ce37136b8346ca603a0efeb4aa63fcb79e3ddbe96115f9aba17b2267",
+      "bytes": 1239,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_SCALE_EXTREMES.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_SCALE_EXTREMES.md",
+      "sha256": "a1773126913503b95c9722d491fa2e8ca4cb35b0309d96ca1d670d7aec0b0e15",
+      "bytes": 1802,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_TASK2.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_TASK2.md",
+      "sha256": "5f675850881ab5dc6a9a2873f706f90c07c43617ada77ccc0e11b4d88523d489",
+      "bytes": 1035,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_TASK2_SCALE.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_TASK2_SCALE.md",
+      "sha256": "21bfe218c402f148fdce5b3fb5090263aa177bfedfe3d834646cb5bada948456",
+      "bytes": 2236,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_TD_ABLATION.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_TD_ABLATION.md",
+      "sha256": "6090c4ff06489be20e7d32480d433b21c0fef20e46a149e57ac70986f2888030",
+      "bytes": 2320,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_TD_BATCH_ABLATION.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_TD_BATCH_ABLATION.md",
+      "sha256": "8b850a77aae28fe8b0559988ba2da5ac245eec7fd741d64bcd2373cedc086e35",
+      "bytes": 2067,
+      "benchmark_host": "cube"
+    },
+    "CHART_CONTRACT_UTD_ABLATION.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CHART_CONTRACT_UTD_ABLATION.md",
+      "sha256": "a136448b230b131da63802b0d5e161ef0801be57b8cfe88bdd0030567d93e642",
+      "bytes": 1629,
+      "benchmark_host": "cube"
+    },
+    "CUBE5_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/CUBE5_PROTOCOL.md",
+      "sha256": "059da31a17f70af0327620d5c9665ca4980ba7b42f8f81cbd8681eaae89b3f3f",
+      "bytes": 3690,
+      "benchmark_host": "cube"
+    },
+    "DATA_PROVENANCE.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/DATA_PROVENANCE.md",
+      "sha256": "534000302569b160610b72c1f7f1b4098a7f9c381259f568e03ac49cf9d07c91",
+      "bytes": 969,
+      "benchmark_host": "cube"
+    },
+    "NEWDATA_ABLATION_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/NEWDATA_ABLATION_PROTOCOL.md",
+      "sha256": "73e6f702804b9e6cd50f366873192fbde56420bc7b10c8317ac2ff448882b59e",
+      "bytes": 3679,
+      "benchmark_host": "cube"
+    },
+    "POLICY_DECORATOR_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/POLICY_DECORATOR_PROTOCOL.md",
+      "sha256": "abb3925a40009b90b795300d4f21682f27f5ad2c70a2117f556c8fd45f2a7e16",
+      "bytes": 5148,
+      "benchmark_host": "cube"
+    },
+    "POLICY_DECORATOR_SOURCE_AUDIT.json": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/POLICY_DECORATOR_SOURCE_AUDIT.json",
+      "sha256": "f8d5168d76e71719a528811e331a688d7fbff60e38d7e2b551523373ccd7d60d",
+      "bytes": 871,
+      "benchmark_host": "cube"
+    },
+    "PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/PROTOCOL.md",
+      "sha256": "cacce1c60d05b01b0b8642ffe1b5d6b7dd1489fa52719cf33de645d34e1a893e",
+      "bytes": 4707,
+      "benchmark_host": "cube"
+    },
+    "docs/REMOTE_README.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/README.md",
+      "sha256": "e5d73d515738348922decbb3e31f3240e3a2ff05aca5d049caac13d2804cb7bd",
+      "bytes": 18593,
+      "benchmark_host": "cube"
+    },
+    "REPLAY_ABLATION.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/REPLAY_ABLATION.md",
+      "sha256": "ce3c65989cde467e47a322bdb6100691ba091e299e063cfb5ada7fbdeb06612c",
+      "bytes": 2787,
+      "benchmark_host": "cube"
+    },
+    "SCALE_EXTREMES_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/SCALE_EXTREMES_PROTOCOL.md",
+      "sha256": "e7771275615a6814c3dc76de47826d4e6cd60bea1dc24e7bd81a1a23baf32a1f",
+      "bytes": 3217,
+      "benchmark_host": "cube"
+    },
+    "SOURCE_AUDIT.json": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/SOURCE_AUDIT.json",
+      "sha256": "dcb6335c1e11054f9804a75de8385ce7cdee7dc8fc032fe7925253a631855c37",
+      "bytes": 514,
+      "benchmark_host": "cube"
+    },
+    "TASK2_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TASK2_PROTOCOL.md",
+      "sha256": "4d07be085c93db1c6bfe7bb06b7066ac276955a38765574de1cff598b777184e",
+      "bytes": 3424,
+      "benchmark_host": "cube"
+    },
+    "TASK2_SCALE_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TASK2_SCALE_PROTOCOL.md",
+      "sha256": "415c1edef19a776093ed76608c1dc7f4bd16fb4575ccac979a9c9fca696b2118",
+      "bytes": 2875,
+      "benchmark_host": "cube"
+    },
+    "TASK5_CONTINUE_1M_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TASK5_CONTINUE_1M_PROTOCOL.md",
+      "sha256": "b6f6a870aaa37e1d06618106b6db63f31384bafbb5941acf3150f8cf44a998fb",
+      "bytes": 2920,
+      "benchmark_host": "cube"
+    },
+    "TASK5_LONG_CRITIC_LAUNCH_NOTE_20260910.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TASK5_LONG_CRITIC_LAUNCH_NOTE_20260910.md",
+      "sha256": "af64e8ff48b58ebaef072ff3a2a83d5adae3e58d1671c2642394cdb130510f6b",
+      "bytes": 2746,
+      "benchmark_host": "cube"
+    },
+    "TASK5_LONG_CRITIC_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TASK5_LONG_CRITIC_PROTOCOL.md",
+      "sha256": "351229fb3a0c15f954d2044e4620e0539073512ad393dac41a870a31925dd649",
+      "bytes": 4732,
+      "benchmark_host": "cube"
+    },
+    "TD_ABLATION_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TD_ABLATION_PROTOCOL.md",
+      "sha256": "8fc1375210c597932db01a92822ebbf7f96bceaf144fa49b94a17646c60c44f9",
+      "bytes": 3753,
+      "benchmark_host": "cube"
+    },
+    "TD_BATCH_ABLATION_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/TD_BATCH_ABLATION_PROTOCOL.md",
+      "sha256": "76ebf028e57a3c8ecc31eba787f57e8eadf08726b2060de5930565dff4504018",
+      "bytes": 3014,
+      "benchmark_host": "cube"
+    },
+    "UTD00625_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/UTD00625_PROTOCOL.md",
+      "sha256": "6dce0d1326a06b1da49c851ed2d2ae4d190aa87546dda35b1e6b68e422fe27e4",
+      "bytes": 3437,
+      "benchmark_host": "cube"
+    },
+    "UTD_ABLATION_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/UTD_ABLATION_PROTOCOL.md",
+      "sha256": "dd4b167b781f78e9d64715dd89ca4aa6ad30c20e87292fd34546932f260454d3",
+      "bytes": 3246,
+      "benchmark_host": "cube"
+    },
+    "WARMUP80K_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/WARMUP80K_PROTOCOL.md",
+      "sha256": "942647f08662dd98fca6e851509712f3d844786c2cfdb632d194e69454ecb9be",
+      "bytes": 5266,
+      "benchmark_host": "cube"
+    },
+    "WARMUP80K_TASK234_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/WARMUP80K_TASK234_PROTOCOL.md",
+      "sha256": "c37d3085a725c8417d0acf1df0d15aafd33d05467cd2487bbc438ead2219c043",
+      "bytes": 3118,
+      "benchmark_host": "cube"
+    },
+    "WARM_CONTINUATION_PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/WARM_CONTINUATION_PROTOCOL.md",
+      "sha256": "8a55ed903d62671ffea94824e36e0a998ac6267e4eca6e52364c207bf6ad37ec",
+      "bytes": 2840,
+      "benchmark_host": "cube"
+    },
+    "actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "cube"
+    },
+    "actor_input_agent_patch.json": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/actor_input_agent_patch.json",
+      "sha256": "a1cc731cdf78f591704be8f4876d83b4f9a93a473344e14d80a4e60f886fbe77",
+      "bytes": 6652,
+      "benchmark_host": "cube"
+    },
+    "actor_input_diagnostics.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/actor_input_diagnostics.py",
+      "sha256": "5bb006423cbbba1c6603dc522ccd2c299ba369cbe4d99f4e4940c0b9d5e65327",
+      "bytes": 8689,
+      "benchmark_host": "cube"
+    },
+    "audit_actor_input_warmup.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_actor_input_warmup.py",
+      "sha256": "648b6fbdf6d6afe9259a4ef90d8a9a634e57efaf8469f7ed607666f5400f6533",
+      "bytes": 3637,
+      "benchmark_host": "cube"
+    },
+    "audit_cube5.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_cube5.py",
+      "sha256": "f4ce9001821d40be2decce884f52cdbe8474ff3f6b4f777f58203a87eb8e914d",
+      "bytes": 2636,
+      "benchmark_host": "cube"
+    },
+    "audit_cube5_checkpoints.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_cube5_checkpoints.py",
+      "sha256": "036afab80314f59e37466c11f68840d9464a9d70a3facbb93fe4f2bc78c2d6c8",
+      "bytes": 3724,
+      "benchmark_host": "cube"
+    },
+    "audit_scale_warmup.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_scale_warmup.py",
+      "sha256": "0078642a73c78b8d2b9e0f435c81cedb9593528fc7effb1d170d117d1c433a0e",
+      "bytes": 3688,
+      "benchmark_host": "cube"
+    },
+    "audit_task2.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_task2.py",
+      "sha256": "afe2df9f4730fe35732f1df5bc84f51b7bf442853c0f9f181ed834b135d4fd91",
+      "bytes": 2188,
+      "benchmark_host": "cube"
+    },
+    "audit_td_batch_warmup.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_td_batch_warmup.py",
+      "sha256": "4c367e064cc32431859449236b6924429d0a017fe7a64b8a29313a3fca5f8ce7",
+      "bytes": 3617,
+      "benchmark_host": "cube"
+    },
+    "audit_td_warmup.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_td_warmup.py",
+      "sha256": "64b50162ae75bf1350cf494e02049cb854c7a95ce2c73d7fbb4c53d9b1d229c3",
+      "bytes": 2749,
+      "benchmark_host": "cube"
+    },
+    "audit_utd_warmup.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/audit_utd_warmup.py",
+      "sha256": "8755e2efe0c193769aa9df9a37e7d3c0d9283749e4da44afed92b7e42de5ebec",
+      "bytes": 2639,
+      "benchmark_host": "cube"
+    },
+    "bc_pretrain.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/bc_pretrain.py",
+      "sha256": "d26ea6411536105fef52e54e453d011671965792789c24cfb0e7c88ef008d1b9",
+      "bytes": 6862,
+      "benchmark_host": "cube"
+    },
+    "dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "cube"
+    },
+    "dawn_replay_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/dawn_replay_agent.py",
+      "sha256": "aa7e24ecf3061b4eed4550552da5ac1abd9250b31189941d8f9f6d861c6ff356",
+      "bytes": 3307,
+      "benchmark_host": "cube"
+    },
+    "export_actor_input_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_actor_input_ablation.py",
+      "sha256": "e57cd6e9075df5a0182013d423d1ccecc79901b07326175449835d5f25d6440e",
+      "bytes": 1566,
+      "benchmark_host": "cube"
+    },
+    "export_bc.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_bc.py",
+      "sha256": "b3a8dfa71b41fe848edc296e8e30d10c8d11a835b5db97d54847d1983daba809",
+      "bytes": 1933,
+      "benchmark_host": "cube"
+    },
+    "export_cube5.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_cube5.py",
+      "sha256": "6d706995f2edf5d118aecb7e968cf26f21c7c8f54703152b6b94d18c4b2f4cb6",
+      "bytes": 1605,
+      "benchmark_host": "cube"
+    },
+    "export_newdata_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_newdata_ablation.py",
+      "sha256": "570b7bff05201724a791aa2b17449f86eacc48be63a61e252fdaaabe92559a89",
+      "bytes": 1633,
+      "benchmark_host": "cube"
+    },
+    "export_policy_decorator.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_policy_decorator.py",
+      "sha256": "67c200adfbd68c763e767547bf6cabad54084c4b8263185b7c5f67a2eb6c17bf",
+      "bytes": 1841,
+      "benchmark_host": "cube"
+    },
+    "export_scale_extremes.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_scale_extremes.py",
+      "sha256": "6beaf9ca78dcb4578092502875d696a95cf021eb1ae320f30783c22dbe48fc98",
+      "bytes": 1814,
+      "benchmark_host": "cube"
+    },
+    "export_task2.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_task2.py",
+      "sha256": "01e0d894b77ab72516ab14a2d9cd55b4bf2bc48e1aabcfaaba33beb3c65f3009",
+      "bytes": 1309,
+      "benchmark_host": "cube"
+    },
+    "export_task2_scale.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_task2_scale.py",
+      "sha256": "b81663482eea3ac98fa2af46b84ad27deec34db53d46dbf095f2c0b31e0591b4",
+      "bytes": 1829,
+      "benchmark_host": "cube"
+    },
+    "export_td_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_td_ablation.py",
+      "sha256": "215d74cf14152449eac6ecd123751ae756c57320e5e8b5bd546a79854e52031f",
+      "bytes": 1633,
+      "benchmark_host": "cube"
+    },
+    "export_td_batch_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_td_batch_ablation.py",
+      "sha256": "2e0b2d2be66919d11f8bc6ccab0fe5b62a7da7d174c7c84a566b468c5e817ad7",
+      "bytes": 1583,
+      "benchmark_host": "cube"
+    },
+    "export_utd_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_utd_ablation.py",
+      "sha256": "2ddd135407be1b5f7dcd03ac07db2052b8e9a5b1065793979e81e63e51ab55f7",
+      "bytes": 1518,
+      "benchmark_host": "cube"
+    },
+    "export_warm_continuation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/export_warm_continuation.py",
+      "sha256": "d9e3a87d28e9bd02979921e8c5f602c60207e522c1829ad30cce382b7f5c1b13",
+      "bytes": 1596,
+      "benchmark_host": "cube"
+    },
+    "launch.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch.py",
+      "sha256": "d49bede2eceecb7a4731dedc7ebd2363ac03f6ed4bf26a96bfafe85b2a9fbcd2",
+      "bytes": 4467,
+      "benchmark_host": "cube"
+    },
+    "launch_actor_input_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_actor_input_ablation.py",
+      "sha256": "bd4ad919bad6669ec4061a2bed81b7f33a437b328e67a7632c15effbe6e96b45",
+      "bytes": 4120,
+      "benchmark_host": "cube"
+    },
+    "launch_bc_online.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_bc_online.py",
+      "sha256": "05086c522f5efd26a4021976e0a51f5ae39331400840b8baea924cee33540ba2",
+      "bytes": 5197,
+      "benchmark_host": "cube"
+    },
+    "launch_bc_pretrain.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_bc_pretrain.py",
+      "sha256": "b198639a156d2caca2584245c8299481bb7ad32035b057901a62ac64ae1c56e3",
+      "bytes": 2748,
+      "benchmark_host": "cube"
+    },
+    "launch_cube5.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_cube5.py",
+      "sha256": "408c7a069bc2dcbf229142140d92fa2a160ca2aa672a2359b5344d20a7e1be44",
+      "bytes": 7825,
+      "benchmark_host": "cube"
+    },
+    "launch_newdata_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_newdata_ablation.py",
+      "sha256": "d66b1396d90616e211ac2bd4a69da34ac0cfac978d166889ad55cd54e076d48e",
+      "bytes": 6041,
+      "benchmark_host": "cube"
+    },
+    "launch_policy_decorator.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_policy_decorator.py",
+      "sha256": "c76ac1c5a4a62275e5d05659e2f5a27099a1f9b44d782c368ab84018cafa395d",
+      "bytes": 3978,
+      "benchmark_host": "cube"
+    },
+    "launch_qam_replay.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_qam_replay.py",
+      "sha256": "f9a87c8a742fad23b706f73d90fc516f1301b8a38a953746b8134b850306067f",
+      "bytes": 3934,
+      "benchmark_host": "cube"
+    },
+    "launch_scale_extremes.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_scale_extremes.py",
+      "sha256": "36f553af1e70985073553d902c02b74ea9bab181dbd2ea22b4729f870a3ef3e3",
+      "bytes": 6392,
+      "benchmark_host": "cube"
+    },
+    "launch_task2.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_task2.py",
+      "sha256": "a6710a8e49d53f9a20fd72bb6f73580db6587b03e28e4fc5355464d0bca46405",
+      "bytes": 4688,
+      "benchmark_host": "cube"
+    },
+    "launch_task2_scale.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_task2_scale.py",
+      "sha256": "2301fb4755ef81bd0d1687b2331ec5aa261ec5d14feeb838ddee76e5e57458a3",
+      "bytes": 6178,
+      "benchmark_host": "cube"
+    },
+    "launch_task5_continue_1m.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_task5_continue_1m.py",
+      "sha256": "e20b2c6132d27c19004a8b6c7baf2683348b6df2a574dc95bcc1338c5c5a8e24",
+      "bytes": 3872,
+      "benchmark_host": "cube"
+    },
+    "launch_task5_long_critic.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_task5_long_critic.py",
+      "sha256": "b703d39b0c52528627d8c441abd86690f3a4801c3503fe9a8ca445fe17c0c7fd",
+      "bytes": 7711,
+      "benchmark_host": "cube"
+    },
+    "launch_td_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_td_ablation.py",
+      "sha256": "8e9053ee5d40f26f657c271caa5928910eda15bbbbc44a3715ae5af81a7938a3",
+      "bytes": 6077,
+      "benchmark_host": "cube"
+    },
+    "launch_td_batch_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_td_batch_ablation.py",
+      "sha256": "df1ef675ce538f7ba6fc364a6325f2a66419786ae180fb33ce9778af674f6c88",
+      "bytes": 5611,
+      "benchmark_host": "cube"
+    },
+    "launch_utd00625.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_utd00625.py",
+      "sha256": "0a207e66bf5b2e920ee49227384f36464a70df4db7bab4e8c55a79ea20b192fc",
+      "bytes": 11794,
+      "benchmark_host": "cube"
+    },
+    "launch_utd_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_utd_ablation.py",
+      "sha256": "7bbfaa03069cb29487636a5fb42372179062207cead918e563ba3c24c045b44c",
+      "bytes": 3721,
+      "benchmark_host": "cube"
+    },
+    "launch_warm_continuation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_warm_continuation.py",
+      "sha256": "4c4e58362ea2cd0e8d1c4ad7829c425b998ce3a15525fcf5a14e972d4f89ec56",
+      "bytes": 3591,
+      "benchmark_host": "cube"
+    },
+    "launch_warmup80k.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_warmup80k.py",
+      "sha256": "8f8163b46def9bf9e5522c396ed5e5ee402fdfff9e8ac2baf5ebb673d27854eb",
+      "bytes": 8938,
+      "benchmark_host": "cube"
+    },
+    "launch_warmup80k_task234.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/launch_warmup80k_task234.py",
+      "sha256": "4e89c1d74e65d12f94c370c2f3ab57fcd3be2b825213ae12680cd676e5e37ff8",
+      "bytes": 10015,
+      "benchmark_host": "cube"
+    },
+    "policy_decorator_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/policy_decorator_agent.py",
+      "sha256": "9af82fb00e154a4b2ebe6a5cab14531961ad94dd33bbf327155052b06f9aa6b1",
+      "bytes": 2126,
+      "benchmark_host": "cube"
+    },
+    "qam_replay.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/qam_replay.py",
+      "sha256": "2e9bcd599d616548f02f18944da82b3d85daeed7bf33b3dec9b48d4a79a813b8",
+      "bytes": 7345,
+      "benchmark_host": "cube"
+    },
+    "render_all_evaluations.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/render_all_evaluations.py",
+      "sha256": "a44ee5d38836e7b514e7dae59bf70b42b910a87dd49b49d4a6836878fe0b0109",
+      "bytes": 9920,
+      "benchmark_host": "cube"
+    },
+    "render_final_demos.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/render_final_demos.py",
+      "sha256": "89943649cc5da25e9a37b210c56c074fe1208dcf67e94d0cc1325438b9df75bc",
+      "bytes": 14022,
+      "benchmark_host": "cube"
+    },
+    "render_task5_offline_comparison.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/render_task5_offline_comparison.py",
+      "sha256": "39da7325cca2b9375ac183d57657ff7ca997a86f78922c7c2e9fac9caf634353",
+      "bytes": 12503,
+      "benchmark_host": "cube"
+    },
+    "requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/requirements.txt",
+      "sha256": "4f5c72293cc32cb258068328d0594570a172484d4f9ea2988de9f72e90870440",
+      "bytes": 259,
+      "benchmark_host": "cube"
+    },
+    "run.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run.py",
+      "sha256": "28eb970ed70773d744a072460a4595b8fe26285812464b13a6a302bb25f043fd",
+      "bytes": 20161,
+      "benchmark_host": "cube"
+    },
+    "run_actor_input_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_actor_input_ablation.py",
+      "sha256": "b3c63015441fe8340200a0eb1a03cc2369f249ac7cc08dbeba37bf12bcfcc950",
+      "bytes": 9217,
+      "benchmark_host": "cube"
+    },
+    "run_bc_online.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_bc_online.py",
+      "sha256": "3c38d03ee4c67552296e0ecbd342fe5f634aa2bf56ea731af870050f6f8d76e9",
+      "bytes": 4683,
+      "benchmark_host": "cube"
+    },
+    "run_cube5.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_cube5.py",
+      "sha256": "d668ef30f404636ce2cfaee78996ec0ae598d88380662f41d752538ea97a0146",
+      "bytes": 7272,
+      "benchmark_host": "cube"
+    },
+    "run_newdata_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_newdata_ablation.py",
+      "sha256": "e862d29c7e03469047f28208ac5cc0f7cf09c2f0e94502c75cd62e3b72ae1b20",
+      "bytes": 9551,
+      "benchmark_host": "cube"
+    },
+    "run_policy_decorator.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_policy_decorator.py",
+      "sha256": "94bec1de2efa67555a2e3a0468556fb36cc60193a378c24310ba72f5052739ba",
+      "bytes": 10961,
+      "benchmark_host": "cube"
+    },
+    "run_qam_replay.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_qam_replay.py",
+      "sha256": "56abf463d14056910017cce343aeeb9f24f65f75510b3fa0bf9802591a4b871e",
+      "bytes": 8886,
+      "benchmark_host": "cube"
+    },
+    "run_scale_extremes.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_scale_extremes.py",
+      "sha256": "1f1a1b7f8c6a5ffa201e9c209f3aac2b42ec6ad0af78abc4d097a7a96b832cc3",
+      "bytes": 4313,
+      "benchmark_host": "cube"
+    },
+    "run_task2.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_task2.py",
+      "sha256": "101b839ab1af7a276ea371c4db3af43ddb49ba4acad0e42e3c2a501346ff0ae3",
+      "bytes": 2329,
+      "benchmark_host": "cube"
+    },
+    "run_task2_scale.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_task2_scale.py",
+      "sha256": "9cdd173e653c6dba44fec706036a402466d828f5eb443d3fd3faa16eae25772c",
+      "bytes": 2635,
+      "benchmark_host": "cube"
+    },
+    "run_task5_continue_1m.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_task5_continue_1m.py",
+      "sha256": "89178d580546282da171e9e35c870c1b06f03bb7f9d46bc64b0c30d3e476b063",
+      "bytes": 11040,
+      "benchmark_host": "cube"
+    },
+    "run_task5_long_critic.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_task5_long_critic.py",
+      "sha256": "6d182360949a65a026ca8f9ae8cbf4a9595121df5294ee1c6aabdcde46d65ba4",
+      "bytes": 14321,
+      "benchmark_host": "cube"
+    },
+    "run_td_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_td_ablation.py",
+      "sha256": "fff5e8c8364d48f4744278a258e3567cd21cb7ceea91d8254e26d351f52608d1",
+      "bytes": 6495,
+      "benchmark_host": "cube"
+    },
+    "run_utd00625.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_utd00625.py",
+      "sha256": "5717bbf73bb7f428448bb0b02e109d7e7d49d1ddbee95ca14fe80110a9205500",
+      "bytes": 16420,
+      "benchmark_host": "cube"
+    },
+    "run_utd_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_utd_ablation.py",
+      "sha256": "c6ebd5e8854b20c162c592421699274b46c142a3d56de362755616853b7b53e5",
+      "bytes": 7658,
+      "benchmark_host": "cube"
+    },
+    "run_warm_continuation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_warm_continuation.py",
+      "sha256": "2b4aa488064ddf1b9e581327b60467b0e44c5c03ed9bf349408d87bc38235125",
+      "bytes": 10218,
+      "benchmark_host": "cube"
+    },
+    "run_warmup80k.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_warmup80k.py",
+      "sha256": "d784f4255b2a3c0f8c9fc45b38913755070cd81b57014055f78fa1eab4a68d3f",
+      "bytes": 15731,
+      "benchmark_host": "cube"
+    },
+    "run_warmup80k_task234.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/run_warmup80k_task234.py",
+      "sha256": "105109cffa308d9cac7ebedfeb090d9e58ee03c72e05100bc136cc5a5f03a308",
+      "bytes": 15902,
+      "benchmark_host": "cube"
+    },
+    "smoke_newdata_reference.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/smoke_newdata_reference.py",
+      "sha256": "68ab154cc7cebbe99754ce420801bd5f8de2606a2ab9ab326ea415e65da31a6a",
+      "bytes": 1875,
+      "benchmark_host": "cube"
+    },
+    "summarize.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize.py",
+      "sha256": "3e98107f8218cddcce886d6a4822651a72ef9949903197bc3ffb840ebd5da8d6",
+      "bytes": 15891,
+      "benchmark_host": "cube"
+    },
+    "summarize_actor_input_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_actor_input_ablation.py",
+      "sha256": "f1e49bfc2dbaab275fca3c6c0323ae4e6e6a4ff083d744577cf1613f8ba8b328",
+      "bytes": 17676,
+      "benchmark_host": "cube"
+    },
+    "summarize_bc.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_bc.py",
+      "sha256": "f6a39f758ebb767188aef13aa4f26377ad5b0826ef2f199f61aa83aa64a3e3e5",
+      "bytes": 15687,
+      "benchmark_host": "cube"
+    },
+    "summarize_cube5.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_cube5.py",
+      "sha256": "5bcd69db1891db440d2f4f57cc17bc0f3f76f68e57b65a9b494770864f927305",
+      "bytes": 19404,
+      "benchmark_host": "cube"
+    },
+    "summarize_five.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_five.py",
+      "sha256": "6a3cc538407f4c87e36f84d078749a1859723298b07c2ba44445a2497420fa9c",
+      "bytes": 15922,
+      "benchmark_host": "cube"
+    },
+    "summarize_newdata_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_newdata_ablation.py",
+      "sha256": "4128f8886206489e707d5e9335eaf89c4575c0f197821be6f62af12ac1114590",
+      "bytes": 19263,
+      "benchmark_host": "cube"
+    },
+    "summarize_policy_decorator.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_policy_decorator.py",
+      "sha256": "2e55ce829240eb3f99e2623fdfdabc9a6bfd826b454bb06636a10c20145c84cc",
+      "bytes": 13713,
+      "benchmark_host": "cube"
+    },
+    "summarize_scale_extremes.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_scale_extremes.py",
+      "sha256": "2114a3fecbe9dea6ac7898ca50ceb868a8af19d81097f8baf963e5feae8541cd",
+      "bytes": 17928,
+      "benchmark_host": "cube"
+    },
+    "summarize_task2.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_task2.py",
+      "sha256": "435608e0a71c8eec6d8493beac876339a186b8f33b09c2d1082704e4454c6511",
+      "bytes": 11060,
+      "benchmark_host": "cube"
+    },
+    "summarize_task2_scale.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_task2_scale.py",
+      "sha256": "e52d77a16c95ea00fdd1115bb7c1f318bfb31d07cffc649ecbadbb2721d29603",
+      "bytes": 14628,
+      "benchmark_host": "cube"
+    },
+    "summarize_td_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_td_ablation.py",
+      "sha256": "2bcf9e1da066f37237b52672f94de4d8306ff36a98c84563a2b7c2cc3387820b",
+      "bytes": 22129,
+      "benchmark_host": "cube"
+    },
+    "summarize_td_batch_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_td_batch_ablation.py",
+      "sha256": "8ca27bfc0499399ab76b833499cd3d3ad7ce635bfaa83c8f4b5ca0761bb334ab",
+      "bytes": 19076,
+      "benchmark_host": "cube"
+    },
+    "summarize_utd_ablation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_utd_ablation.py",
+      "sha256": "cee7b69d1cd6330f7a7f4b8cd222226115218a1d92417bbf1c0f393ddb083cbb",
+      "bytes": 17795,
+      "benchmark_host": "cube"
+    },
+    "summarize_warm_continuation.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/summarize_warm_continuation.py",
+      "sha256": "062aa7e67a18771eceb64f3190370294588aafd670857b6247f2b063606cf125",
+      "bytes": 8785,
+      "benchmark_host": "cube"
+    },
+    "td_diagnostics.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/td_diagnostics.py",
+      "sha256": "5652a75af1301b9d1b8e45afa4e58b32be6fb67f9ea6a98eaa90abcb60fd7956",
+      "bytes": 8542,
+      "benchmark_host": "cube"
+    },
+    "test_bc_pretrain.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/test_bc_pretrain.py",
+      "sha256": "b34cd79ff00699fcd0cbd9ccf4088c0bbd65183c97afcf0253a9c3e9de2b866a",
+      "bytes": 2901,
+      "benchmark_host": "cube"
+    },
+    "test_design.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/test_design.py",
+      "sha256": "89593787caeea36d208a400c1b7859a09ece955dadd8dd2d94122566882217df",
+      "bytes": 2882,
+      "benchmark_host": "cube"
+    },
+    "test_policy_decorator.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/test_policy_decorator.py",
+      "sha256": "4a4062fe1ce4216f8ffc2e51048291692c763346c8f2d4f6156c9c0034a73231",
+      "bytes": 2955,
+      "benchmark_host": "cube"
+    },
+    "test_qam_replay.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/test_qam_replay.py",
+      "sha256": "e16d27e069e06300707193ab987333981622afcadc4c55a6df34f8f7d393135e",
+      "bytes": 4312,
+      "benchmark_host": "cube"
+    },
+    "utd00625_extension_diff.json": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/utd00625_extension_diff.json",
+      "sha256": "c7c5590abbff227eb760d5ec9e36c1a19abd01e4080ed8464cad7ed516381340",
+      "bytes": 2942,
+      "benchmark_host": "cube"
+    },
+    "utd00625_support.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/utd00625_support.py",
+      "sha256": "39871dce669e9bc4fff7d1370b2b05ae2c83ae67357811973ccb70778192c449",
+      "bytes": 4530,
+      "benchmark_host": "cube"
+    },
+    "validate_all_evaluation_videos.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/validate_all_evaluation_videos.py",
+      "sha256": "17e47c92c544ebcbb91c999e5f03268f441c1ed8cd2997557b1ae5633c34fc22",
+      "bytes": 3009,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "cube"
+    },
+    "vendor/qam/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/vendor/qam/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "cube"
+    },
+    "verify_task5_continue_1m.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/verify_task5_continue_1m.py",
+      "sha256": "1a67747e4ef52b279e34bd8bb91d63f21299f4d740b76d2030ca3dc8cc99c2a3",
+      "bytes": 1742,
+      "benchmark_host": "cube"
+    },
+    "verify_task5_long_critic.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/verify_task5_long_critic.py",
+      "sha256": "f5f246e3e07343af0b39e12fe6c0a1e733511aa6f7885a37d6d0fe0df07f117e",
+      "bytes": 2696,
+      "benchmark_host": "cube"
+    },
+    "verify_warmup80k.py": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/verify_warmup80k.py",
+      "sha256": "9c0a417dba72a3bbdefe91ddbe37d9ac582a6c3d2c006e8ceb77d5aae3b827a8",
+      "bytes": 5725,
+      "benchmark_host": "cube"
+    },
+    "warmup80k_task234_extension_diff.json": {
+      "remote_path": "/root/autodl-tmp/qam_dawn_o2o/warmup80k_task234_extension_diff.json",
+      "sha256": "756398e97d0ab594ef99bc71303f28c3523dc44d529459e381065aa347ab2b9c",
+      "bytes": 1757,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/adapter_hashes.json": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/adapter_hashes.json",
+      "sha256": "bf0c15a78b6e6a9e0c89d2279c2860dc5aded1f34866a758f9a84a58d6d35a90",
+      "bytes": 724,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/balanced_replay.py": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/balanced_replay.py",
+      "sha256": "fa29b3e28dbf650bc020a9ef7803deecc8276da8b248e9db9f34c904a1f0082d",
+      "bytes": 2999,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/egl_vendor.json": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/egl_vendor.json",
+      "sha256": "420307ad727437c51945b17c918ca5f90e5b7702617ec6612c86e254bd985a43",
+      "bytes": 114,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/inputs.json": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/inputs.json",
+      "sha256": "a3a45cf6114dc394a3d196dfefc6b8dcb208609c05921b8d78b49fbd327f0a42",
+      "bytes": 3079,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/legacy/actor_input_agent.py": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/legacy/dawn_agent.py": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/legacy/run.py": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/legacy/run.py",
+      "sha256": "c7537010deb5491b18943395a4c848a131aeea73d15621c0de5f4bdbf4cf7dcc",
+      "bytes": 20474,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/run_online.py": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/run_online.py",
+      "sha256": "b5ab0950802f454fed8d4f5b3dea022e17420c64042be5c15c3c2e8ed87580dc",
+      "bytes": 10210,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/source_manifest.json": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/source_manifest.json",
+      "sha256": "e34e66098767e6824ee6095cdaf471f8b799cb4decb2ea982b386c3f0988ce2a",
+      "bytes": 1161,
+      "benchmark_host": "cube"
+    },
+    "scale100k/cube/suite.py": {
+      "remote_path": "/root/qam_dawn_outputs/scale100k_20260914/suite.py",
+      "sha256": "11cef73f52b52cdc1d949f6cf5b2a2f3dc4fb6cf3d87eceba4cb1d3e2ba6da6f",
+      "bytes": 2253,
+      "benchmark_host": "cube"
+    },
+    "antmaze/PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/PROTOCOL.md",
+      "sha256": "79b21e424395af13b959ec8c1bbd29b2f7d683d60f29c1608c8f5cd24bb0f448",
+      "bytes": 5927,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/adapter_hashes.json",
+      "sha256": "badeaba44ad09d5df0442b439c7ebbef63f6947fbd7a3cb764ac7a151e923a30",
+      "bytes": 521,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/dawn.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/dawn.py",
+      "sha256": "35276e9d2134d5b29e7cdc3bb40fb414f7618aac40a7f70a61de8e2d000d4abf",
+      "bytes": 8042,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/download_data.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/download_data.py",
+      "sha256": "93089841574a04a517f275d3d8d759fd0405e8c77cb92bf575b6ddcbb23e02bc",
+      "bytes": 2702,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/download_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/download_manifest.json",
+      "sha256": "aabf1aebc5dc15dc6d877402fa3406f21d93612e0a0beae80a72e84cd820de12",
+      "bytes": 915,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/legacy/run.py",
+      "sha256": "28eb970ed70773d744a072460a4595b8fe26285812464b13a6a302bb25f043fd",
+      "bytes": 20161,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/native.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/native.py",
+      "sha256": "d941e3cfc13e3dc4966e29ffd71f14efbb41683f9925e60a6f5deb62af018538",
+      "bytes": 8281,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/source_manifest.json",
+      "sha256": "721c658ee7b464a4ad4c1feecaf2de91f6c143b04067bdb477a59e0e655de0b8",
+      "bytes": 4095,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze/suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze/suite.py",
+      "sha256": "dfb8382dad5c783f41d44f5ea4ca813ac7f87f84434236d38e55050d36eab28f",
+      "bytes": 1867,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/PROTOCOL.md",
+      "sha256": "0b701cd939c23ae84090b7f412973582a053debd4070b9791fbf2640cc4800e4",
+      "bytes": 3505,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/adapter_hashes.json",
+      "sha256": "38d3dad23f1a72b95c8e4d27ed387878f28c3805dd27f94cb65838b5ca5c048a",
+      "bytes": 602,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/dawn.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/dawn.py",
+      "sha256": "241c455ec92c7b04ac1e431bc8611544c51e4aec2aa58274b669e5b6ee4d739d",
+      "bytes": 8827,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/fetch_status.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/fetch_status.py",
+      "sha256": "af154e4c96b7cde8d88947e72b6539a07de15216b85b8a527cabe90d25e16a3b",
+      "bytes": 4384,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/legacy/run.py",
+      "sha256": "28eb970ed70773d744a072460a4595b8fe26285812464b13a6a302bb25f043fd",
+      "bytes": 20161,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/native.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/native.py",
+      "sha256": "672f2cee4697504e8f7acd6561c1f20cd0934ae3d8a80008a1ab37112b979c4d",
+      "bytes": 8377,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/preflight.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/preflight.py",
+      "sha256": "129c789d4ad206cda91617789754c96df61d5e6eb2e6a82aabd7a0bb7ffa623e",
+      "bytes": 1513,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/source_manifest.json",
+      "sha256": "721c658ee7b464a4ad4c1feecaf2de91f6c143b04067bdb477a59e0e655de0b8",
+      "bytes": 4095,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_remaining/suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_task2_5/suite.py",
+      "sha256": "2f73af79023d2355eab42cb430b9740b6b4538ccfde7230126566a8b78ec5de5",
+      "bytes": 3870,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/PROTOCOL.md",
+      "sha256": "6f90a8571edd15bc659ce1e6cde4fe695535576f6c3d231ea74341d98b7a190f",
+      "bytes": 3507,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/adapter_hashes.json",
+      "sha256": "428c96200d41c61654ca6ac76e79ac42431adb38c0c9da93d430b50062dc66cd",
+      "bytes": 1071,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/balanced_replay.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/balanced_replay.py",
+      "sha256": "da54db5702bf980ab6c32bb17a3b9207569fe38cb6e43af36cd1bd404abd0552",
+      "bytes": 3659,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/dawn.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/dawn.py",
+      "sha256": "1672c9d9e5765ef3d850359c2b68b60afa1e3942f1ff15baa862e589ac7c6e0c",
+      "bytes": 9956,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/inputs.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/inputs.json",
+      "sha256": "23db3906a2247e330778a62c527af7f5430991320c47fd6c367aefe4562ddeef",
+      "bytes": 878,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/legacy/run.py",
+      "sha256": "be2dea2e71183b53feed895375fe3435fb6509e87fe83da1f8d9e2031dcb3348",
+      "bytes": 20283,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/preflight.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/preflight.py",
+      "sha256": "5b6ce607117bb7d222540fede5d3be454c4b29d1cec6712c3622ab8e1aef2c03",
+      "bytes": 2514,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/source_manifest.json",
+      "sha256": "0054e87bf9d0c8d938fe3717c55d863ae3cb29f67e6bb2e7ac7a0405c4c4edf5",
+      "bytes": 4186,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/suite.py",
+      "sha256": "a86d9ddfbb8f1c0eb96e2cc2fb997d525c568a6a60eafb246729c0a9fe6318ff",
+      "bytes": 3554,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_balanced/test_replay.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_balanced40k/test_replay.py",
+      "sha256": "9694421f01cabcf3516f1710e1d7874f792114aeba303573e75f340fac9e09fd",
+      "bytes": 2627,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/PROTOCOL.md",
+      "sha256": "5c5c811af055243b7d27d32b445c4e2b0bda063aaae7c08a37c564df9cfd9d3c",
+      "bytes": 3475,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/adapter_hashes.json",
+      "sha256": "ad435e65871a4179ca6d80dba989661e74567005bdfbc397601f72aeefbc8d73",
+      "bytes": 609,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/dawn.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/dawn.py",
+      "sha256": "eb6778978df01c99fcf16b2e21d9a6ab4c738f5041cbf3734cb923f5b471631b",
+      "bytes": 11437,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/inputs.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/inputs.json",
+      "sha256": "23db3906a2247e330778a62c527af7f5430991320c47fd6c367aefe4562ddeef",
+      "bytes": 878,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/legacy/run.py",
+      "sha256": "28eb970ed70773d744a072460a4595b8fe26285812464b13a6a302bb25f043fd",
+      "bytes": 20161,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/preflight.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/preflight.py",
+      "sha256": "6381054ffb6584b99ef5340d6442c1f4994b334d379b5f65a91dadb092191fd0",
+      "bytes": 2766,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/source_manifest.json",
+      "sha256": "721c658ee7b464a4ad4c1feecaf2de91f6c143b04067bdb477a59e0e655de0b8",
+      "bytes": 4095,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60/suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60/suite.py",
+      "sha256": "8fbd4540c350a0bd44a0f48f64ea164943c8d2b9f0e6e84e047431b4e53e10eb",
+      "bytes": 3587,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/PROTOCOL.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/PROTOCOL.md",
+      "sha256": "1e86cbcd512ce0cacd5e44439abef58b27627866959047b9ef41e516cb448802",
+      "bytes": 2330,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/adapter_hashes.json",
+      "sha256": "6dd3cedb5815ffbb0b8d321e1e574cfaa8adf513a60c45a5f9a0fbca4878ade2",
+      "bytes": 891,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/dawn.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/dawn.py",
+      "sha256": "2e011fbae98fbece568f68886ab7e10169431c8929fa74f9dd79f693f4e9bffa",
+      "bytes": 12257,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/inputs.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/inputs.json",
+      "sha256": "97da788752ed92414b37ef4cdcef60ca13086ed309a80c9185cf57be37488919",
+      "bytes": 700,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/legacy/run.py",
+      "sha256": "f8b733aea351ae2c9ebd5d3a8399fce1137aefbb4047843ff9fe0ce3c6319781",
+      "bytes": 20158,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/preflight.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/preflight.py",
+      "sha256": "dbc25949066f7d05ec0b17dc0fdcf29536fdcbff78eb923ad14c11512384899d",
+      "bytes": 3380,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/source_manifest.json",
+      "sha256": "4069e11e70b8041b5ab2d351792facddbf73ea347e311b94f6c1df06538d6dfe",
+      "bytes": 4279,
+      "benchmark_host": "antmaze"
+    },
+    "antmaze_online60_utd00625/suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_online60_utd00625/suite.py",
+      "sha256": "46a2b17d74ba0179e74654aef83027a8862c3f9e73e2befb6604c6b0d6945df3",
+      "bytes": 3572,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/adapter_hashes.json",
+      "sha256": "eabe556583e720d9829e4748a8971b9eda27636f73caf5b56044bf21f532d483",
+      "bytes": 732,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/dawn_resume.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/dawn_resume.py",
+      "sha256": "f62a9ad62285b6ef526bbc46f0abe9da33163e7f080691ac2c3cc4c45ba5c21e",
+      "bytes": 8170,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/dawn_suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/dawn_suite.py",
+      "sha256": "531dab326aad024252b2cca2a3ca88c4f162a3595a14afd83987c2cdeac94500",
+      "bytes": 1998,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/inputs.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/inputs.json",
+      "sha256": "c89cf0a117ad1ed6610822943db23e30acd23e9ae1e0fae2b3e2e51153c39d7c",
+      "bytes": 1417,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/legacy/run.py",
+      "sha256": "f8b733aea351ae2c9ebd5d3a8399fce1137aefbb4047843ff9fe0ce3c6319781",
+      "bytes": 20158,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_dawn/source_manifest.json",
+      "sha256": "4069e11e70b8041b5ab2d351792facddbf73ea347e311b94f6c1df06538d6dfe",
+      "bytes": 4279,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/adapter_hashes.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/adapter_hashes.json",
+      "sha256": "206c7ca7184946de2442556dfd7044fea00620701957c503d99b9ead5a2282b7",
+      "bytes": 440,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/inputs.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/inputs.json",
+      "sha256": "c89cf0a117ad1ed6610822943db23e30acd23e9ae1e0fae2b3e2e51153c39d7c",
+      "bytes": 1417,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/legacy/actor_input_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/legacy/actor_input_agent.py",
+      "sha256": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+      "bytes": 7260,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/legacy/dawn_agent.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/legacy/dawn_agent.py",
+      "sha256": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a",
+      "bytes": 6544,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/legacy/run.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/legacy/run.py",
+      "sha256": "28eb970ed70773d744a072460a4595b8fe26285812464b13a6a302bb25f043fd",
+      "bytes": 20161,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/native.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/native.py",
+      "sha256": "908ae958957f40e56717c709362fa0b1a5b070da11e8f25586dcaaa2741fe34b",
+      "bytes": 7608,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/LICENSE": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/LICENSE",
+      "sha256": "0c2e26e25d605cb03c4531d679085e687899aba8c4d93f9f8519217d265b5414",
+      "bytes": 1112,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/README.md": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/README.md",
+      "sha256": "6ade8c7c1104ee7f68448f6857f542e587cff194dde5cb4f2e5d84740d596715",
+      "bytes": 3219,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/__init__.py",
+      "sha256": "96a3cb65b0af891911f4c52084ff9f48639b1ed4d1dac2bf59813b97a06c0483",
+      "bytes": 678,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/bam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/bam.py",
+      "sha256": "0e62a1440b684f095f5e2b52932b41b291d748dcbade9eabf9b30c70daf17f2c",
+      "bytes": 12691,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/cgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/cgql.py",
+      "sha256": "24825903f785a77649e2995dbcc8e6edde7f288b371688ea316133b53d1ba09d",
+      "bytes": 13998,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/dcgql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/dcgql.py",
+      "sha256": "a642c23b8d906c36f1ce95470162973286351f9fec69082c8128ca9cea3facca",
+      "bytes": 13392,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/dsrl.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/dsrl.py",
+      "sha256": "d97097ba2d4746111108b26af052738c95b9e320d80a50e17eed047850705f53",
+      "bytes": 12162,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/fawac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/fawac.py",
+      "sha256": "56596a115e255ebb45f542a54b38b81280e6e8a4b1517fe26a4efc0781ef922c",
+      "bytes": 9468,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/fbrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/fbrac.py",
+      "sha256": "00bc619efa270c780ebad7ff2567f4ea63c9c9d7293259cd61ad3acb4e0ebcd0",
+      "bytes": 9850,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/fedit.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/fedit.py",
+      "sha256": "973442bf01badf2b7b587f149ecfc84642220e78f2b88ff3f33d3133ab0f1e07",
+      "bytes": 11775,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/fql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/fql.py",
+      "sha256": "dd922fa0be24d3e988c01ddbf063924e69f9a6a1c31ddefbf3e8494333e78377",
+      "bytes": 10430,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/ifql.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/ifql.py",
+      "sha256": "2f857d314a4d081e711094f422d72baf21a2718603e0aa3cfab96a96285ee679",
+      "bytes": 9954,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/model.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/model.py",
+      "sha256": "6e300a949b8dbeae076cf089475c54ff286164a5633a3e475be5033a10fb262f",
+      "bytes": 11761,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/qam.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/qam.py",
+      "sha256": "0b7d02d6f355656a33120a58915e7454cd25fedb80158e5b7b72366850aabf6a",
+      "bytes": 19020,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/rebrac.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/rebrac.py",
+      "sha256": "8544dfc41d13fdaf6ea515e8bc9241e15ed43733c5d1ddd6e4900ec16d635400",
+      "bytes": 10017,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/agents/rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/agents/rlpd.py",
+      "sha256": "2ab17224d2660c93ca5e1018e683a8415219de728401ab4d01a99d000fbff559",
+      "bytes": 8779,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/envs/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/envs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/envs/d4rl_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/envs/d4rl_utils.py",
+      "sha256": "679c46e8116eb35692bfdc1050367f768e0773cb80fdb92bc9013b86866be5bb",
+      "bytes": 1832,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/envs/env_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/envs/env_utils.py",
+      "sha256": "1235f15d63c0bc39c331f5e7a1cef3a5e3619fd0dd72225d1e71bb21bb815565",
+      "bytes": 5480,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/envs/ogbench_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/envs/ogbench_utils.py",
+      "sha256": "07d976a0cc5b8837ec17497939eaa27d7bda0bb9f06455da215f447f933307ab",
+      "bytes": 9151,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/evaluation.py",
+      "sha256": "99902a328f8d0df968adee4d3e24e5564e8d5d06722d5c61db2c753a313805a0",
+      "bytes": 5143,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/experiments/generate.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/experiments/generate.py",
+      "sha256": "415cc7d0fad2626957c19f08de67db8c98620acc4a6bfb03f1dcd88d3aa71082",
+      "bytes": 1901,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/experiments/reproduce.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/experiments/reproduce.py",
+      "sha256": "cddca69f8f9175270db7dbe8c3fe8e4c54b8cef2704bc9432f250125f44e7666",
+      "bytes": 17037,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/experiments/reproduce_quality.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/experiments/reproduce_quality.py",
+      "sha256": "fe91c1a54c15e12a424a6d2d8db327c7ca5a985c9fb52cadf236a42c46cd9cbb",
+      "bytes": 17162,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/experiments/reproduce_rlpd.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/experiments/reproduce_rlpd.py",
+      "sha256": "479be5c20f6090d1a7e056796db75262aa23decedf613ee3271080854b30e32f",
+      "bytes": 4017,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/experiments/reproduce_sensitivity.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/experiments/reproduce_sensitivity.py",
+      "sha256": "53c28781ecc47bac1fe91461e9a7c91058aae85530ff56b3e05df0a5fb9f24c2",
+      "bytes": 6220,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/log_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/log_utils.py",
+      "sha256": "26213a5256d5b667e4f3fe93d162a4fb0cbf58ab97193cf33752d2c425085cc1",
+      "bytes": 5739,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/main.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/main.py",
+      "sha256": "ccaa4fb5e18807ba76d03ac2889424394115936adeb3e8d655e68f8af1b672e9",
+      "bytes": 16005,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/requirements.txt": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/requirements.txt",
+      "sha256": "ec4c5767ac283c971517e19a0bca37538d8b09258d5c88329a60db3e0e7210a2",
+      "bytes": 93,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/utils/__init__.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/utils/datasets.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/utils/datasets.py",
+      "sha256": "dc5799124c3fd1240361f50e82b987f2bc68c09afceb803bc8d6aafb6abea0e4",
+      "bytes": 5728,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/utils/diffusion.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/utils/diffusion.py",
+      "sha256": "3b89ff012f0028e438afcdf902c2ba95567d3b4529bd921177ab70667b80bc6c",
+      "bytes": 2013,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/utils/flax_utils.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/utils/flax_utils.py",
+      "sha256": "42680ff9192be5a03e7f5b7a6c7687970ee0d8fb7199fa62c1a90908286e2f79",
+      "bytes": 7129,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/utils/gym_wrappers.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/utils/gym_wrappers.py",
+      "sha256": "fbb96269da2833d48b89889a82bd19915bdd7db4726b3b1666df177d89c07867",
+      "bytes": 2481,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/official/utils/networks.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/official/utils/networks.py",
+      "sha256": "8ee2ddb92a2d0ed115da0fa8d2a419197baea256cdffe8b249b8b29058e1551d",
+      "bytes": 11296,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/paired_evaluation.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/paired_evaluation.py",
+      "sha256": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+      "bytes": 1117,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/source_manifest.json": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/source_manifest.json",
+      "sha256": "721c658ee7b464a4ad4c1feecaf2de91f6c143b04067bdb477a59e0e655de0b8",
+      "bytes": 4095,
+      "benchmark_host": "antmaze"
+    },
+    "scale100k/antmaze_native/suite.py": {
+      "remote_path": "/root/autodl-tmp/qam_antmaze_scale100k_native/suite.py",
+      "sha256": "b0b2a38baa5ffa6ad46422947ae143c4eb36b5cf27b2947ac43d4bf295e87639",
+      "bytes": 2144,
+      "benchmark_host": "antmaze"
+    }
+  }
+}

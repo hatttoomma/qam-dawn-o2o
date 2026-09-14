@@ -1,0 +1,17 @@
+{
+  "scale100k/validate_completed.py": {
+    "original_sha256": "e8387f8faa37eff85fd139e340796a81cee8e7e0a554e31c51d0dce0211836a5",
+    "repository_sha256": "066cb30c6466139004808d9e93e6948f85ecf4c5be0b10e91feca7208243209f",
+    "reason": "Repository-relative report/live output default; explicit output-dir/snapshot CLI for report tools. No training or metric logic change."
+  },
+  "scale100k/plot_final.py": {
+    "original_sha256": "b2e244a9bb230c85fb81c13cf7bf476ab6272af98762bd8f21210fcd0f82ac2a",
+    "repository_sha256": "ca610b6a5a0c29fbf05fb2869821c897a4659b7b0655d9291acffe1fd0dc4c3b",
+    "reason": "Repository-relative report/live output default; explicit output-dir/snapshot CLI for report tools. No training or metric logic change."
+  },
+  "scale100k/fetch_status.py": {
+    "original_sha256": "44dabdc2d4a92449a146c25430c7432522f37d3c6fb375ef7aac48f591186ed0",
+    "repository_sha256": "52a3d7927cf9ff7150e0786c2235a333838542291e93211f508a85465b7b4084",
+    "reason": "Repository-relative report/live output default; explicit output-dir/snapshot CLI for report tools. No training or metric logic change."
+  }
+}

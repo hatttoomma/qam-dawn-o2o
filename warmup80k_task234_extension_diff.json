@@ -1,0 +1,31 @@
+{
+  "source_sha256": "d784f4255b2a3c0f8c9fc45b38913755070cd81b57014055f78fa1eab4a68d3f",
+  "extended_sha256": "105109cffa308d9cac7ebedfeb090d9e58ee03c72e05100bc136cc5a5f03a308",
+  "training_loop_unchanged": true,
+  "changes": [
+    {
+      "old": "\"\"\"Task1/5 warmup-80k, online-150k runs on the unchanged historical residual loop.\"\"\"",
+      "new": "\"\"\"Task2/3/4 extension of the validated Task1/5 warmup-80k, online-150k runner.\"\"\""
+    },
+    {
+      "old": "RUNS = common.ROOT / 'runs/warmup80k_150k_20260911'",
+      "new": "RUNS = common.ROOT / 'runs/warmup80k_150k_task234_20260911'"
+    },
+    {
+      "old": "OFFLINES = {1: ('runs/offline/final.pkl', 'f318b912d53af2d18f6dbf6ca2815a0af8fb0a795afc325f1544b81b1f080cc1'),\n            5: ('runs/cube5/task5_offline/final.pkl', 'fc0ac82260d16262da8e0c1d7266fd19fc024dfc52c4b40b26e64b6463a1938a')}",
+      "new": "OFFLINES = {2: ('runs/task2/offline/final.pkl', 'b117517f8e6d2227137a715de4c5045c0468b252949c0c782e94265dd489cd02'),\n            3: ('runs/cube5/task3_offline/final.pkl', 'd955aeb235ca369996c54621421b29ba0cd933be61bc92909729cba0cc442ffd'),\n            4: ('runs/cube5/task4_offline/final.pkl', 'aa98ada060943a3633979c5fbdf9cc1b77cda950a409a0e5e4f5fd2f79097670')}"
+    },
+    {
+      "old": "choices=(1, 5)",
+      "new": "choices=(2, 3, 4)"
+    },
+    {
+      "old": "source_names = [*FROZEN, 'run_warmup80k.py'",
+      "new": "source_names = [*FROZEN, 'run_warmup80k.py', 'run_warmup80k_task234.py'"
+    },
+    {
+      "old": "previous_path = ('runs/actor_input_ablation/task1_base_action' if task == 1 else 'runs/cube5/task5_warm')",
+      "new": "previous_path = ('runs/actor_input_ablation/task2_base_action' if task == 2 else f'runs/cube5/task{task}_warm')"
+    }
+  ]
+}

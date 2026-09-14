@@ -1,0 +1,10 @@
+{
+  "dawn_suite.py": "531dab326aad024252b2cca2a3ca88c4f162a3595a14afd83987c2cdeac94500",
+  "source_manifest.json": "4069e11e70b8041b5ab2d351792facddbf73ea347e311b94f6c1df06538d6dfe",
+  "paired_evaluation.py": "ff4b2617a570d4126b0adf87001ffe58cbfc0a06f79f962b342d940f76d37bfb",
+  "inputs.json": "c89cf0a117ad1ed6610822943db23e30acd23e9ae1e0fae2b3e2e51153c39d7c",
+  "dawn_resume.py": "f62a9ad62285b6ef526bbc46f0abe9da33163e7f080691ac2c3cc4c45ba5c21e",
+  "legacy/run.py": "f8b733aea351ae2c9ebd5d3a8399fce1137aefbb4047843ff9fe0ce3c6319781",
+  "legacy/actor_input_agent.py": "1b00a08158cfbb2052656e332d7510dcab2b94d06e601812e25b544c9ef2db52",
+  "legacy/dawn_agent.py": "3efe8b3518ba0ef9fe71284637a77143f90382bb91c05cf00bc3804514d4a56a"
+}

@@ -1,0 +1,18 @@
+{
+  "1": {
+    "native": "/root/autodl-tmp/qam_antmaze/results/native",
+    "offline_sha256": "abbc5e83a3b6127212a004c70bc5d56dd7011fc5f81408c003c8d1d33ce71920"
+  },
+  "2": {
+    "native": "/root/autodl-tmp/qam_antmaze_task2_5/results/task2/native",
+    "offline_sha256": "57b70f5d38c0ff669b0d1b2a62f360541a10763aceb5b2cc462c4d2018b12f98"
+  },
+  "3": {
+    "native": "/root/autodl-tmp/qam_antmaze_task2_5/results/task3/native",
+    "offline_sha256": "740308cbad77c425b24a066193586bdf5af3b74922f0248f9c30438787a01bcc"
+  },
+  "5": {
+    "native": "/root/autodl-tmp/qam_antmaze_task2_5/results/task5/native",
+    "offline_sha256": "565c9817b191b84db20ca007ff5e3e98809cb56719337acaa772fbf131d17fd1"
+  }
+}

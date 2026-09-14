@@ -1,0 +1,23 @@
+{
+  "python": "3.10.8",
+  "packages": {
+    "numpy": "1.26.4",
+    "jax": "0.4.35",
+    "jaxlib": "0.4.34",
+    "flax": "0.10.2",
+    "optax": "0.2.4",
+    "chex": "0.1.90",
+    "orbax-checkpoint": "0.11.5",
+    "distrax": "0.1.5",
+    "ml-collections": "0.1.1",
+    "ogbench": "1.1.0",
+    "gymnasium": "0.29.1",
+    "mujoco": "3.2.7",
+    "matplotlib": "3.9.4",
+    "psutil": "7.0.0",
+    "absl-py": "2.5.0",
+    "tqdm": "4.70.0",
+    "imageio": "2.37.4",
+    "nvidia-cuda-nvcc-cu12": "12.6.85"
+  }
+}

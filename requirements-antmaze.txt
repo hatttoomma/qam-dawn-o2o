@@ -1,0 +1,7 @@
+# Core versions match requirements.txt; additional imports used by official QAM.
+-r requirements.txt
+absl-py==2.5.0
+tqdm==4.70.1
+wandb==0.19.8
+moviepy==1.0.3
+imageio==2.37.4
